@@ -1,0 +1,109 @@
+.hero {
+    height: 100vh;
+    background:url("../res/IVPEK.png") no-repeat center center/cover;
+    background-attachment: fixed;
+    display: flex;
+    position:fixed;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+.hero-content {
+    /*background-color: rgba(100, 0, 0, 0.6);*/
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+
+.content-section {
+    margin-top: 50px;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.content-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.content-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    gap: 20px;
+}
+
+.content-block p {
+    flex: 1;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.content-block img {
+    flex: 1;
+    max-width: 400px;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.partner-section {
+    margin-top: 50px;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.partner-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.partner-section p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.partner-logos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.partner-logos img {
+    max-width: 200px;
+    max-height: 100px;
+    transition: filter 0.3s ease;
+}
+
+.partner-logos img:hover {
+    filter: none;
+}

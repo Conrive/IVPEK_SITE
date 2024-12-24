@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ИвПэк</title>
+	<link rel="stylesheet" href="styles/students.css">
+	<link rel="stylesheet" href="styles/shared_resources.css">
+	<link rel="stylesheet" href="styles/adaptive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+</head>
+<body>
+	<!-- Шапка сайта -->
+    <header class="header">
+        <div class="logo">
+            <a href="main_page.html">
+                <img src="res/logo-ivpek.svg" alt="placeholder+image">
+            </a>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li class="nav-li"><a href="abiturients.html">Абитуриентам</a></li>
+                <li class="nav-li"><a href="students.html">Студентам</a></li>
+                <li class="nav-li"><a href="teachers.html">Преподавателям</a></li>
+                <li><a id="menu-btn">Меню</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Боковая панель меню -->
+    <div id="side-menu" class="side-menu">
+        <h2 class="headline">Карта сайта</h2>
+        <ul>
+            <li>
+                <a class="title" href="abiturients.html">Абитуриентам</a>
+                <br>
+                <ul class="submenu">
+                    <li><a href="#">шорткат распы</a></li>
+                    <li><a href="#">ещё что-нибудь</a></li>
+                    <li><a href="#">что-нибудь ver.2</a></li>
+                </ul>
+            </li>
+            <br>
+            <li>
+                <a class="title" href="students.html">Студентам</a>
+                <br>
+                <ul class="submenu">
+                    <li><a href="#">ЧТО-НИБУДЬ</a></li>
+                    <li><a href="#">0YfRgtC+LdC90LjQsdGD0LTRjA==</a></li>
+                    <li><a href="#">Подпункт что-нибудь</a></li>
+                </ul>
+            </li>
+            <br>
+            <li>
+                <a class="title" href="teachers.html">Преподавателям</a>
+                <br>
+                <ul class="submenu">
+                    <li><a href="#">ьдубин-отч</a></li>
+                    <li><a href="#">что-нибудь useless</a></li>
+                    <li><a href="#">что-нибудь</a></li>
+                </ul>
+            </li>
+       </ul>
+    </div>
+
+    <!-- Фон для затемнения -->
+    <div id="overlay" class="overlay"></div>
+
+	<section class="student-intro" data-aos="fade-up">
+	    <div class="container">
+	        <h2>Добро пожаловать, студенты!</h2>
+	        <p>
+	            На этой странице вы найдете всю необходимую информацию о расписании занятий, дополнительных курсах, студенческих мероприятиях и многом другом.
+	        </p>
+	        <div class="student-links">
+	            <a href="#">Расписание занятий</a>
+	            <a href="#">Электронная библиотека</a>
+	            <a href="#">Контакты кураторов</a>
+	        </div>
+	    </div>
+	</section>
+
+	<section class="student-news" data-aos="fade-up">
+	    <div class="container">
+	        <h2>Последние новости</h2>
+	        <div class="news-grid">
+	            <div class="news-item">
+	                <h3>Открыта регистрация на летние курсы</h3>
+	                <p>
+	                    Студенты могут записаться на летние интенсивы. Успейте зарегистрироваться до 15 июня!
+	                </p>
+	                <a href="#">Подробнее</a>
+	            </div>
+	            <div class="news-item">
+	                <h3>День карьеры</h3>
+	                <p>
+	                    Приглашаем студентов на мероприятие, где вы сможете встретиться с работодателями!
+	                </p>
+	                <a href="#">Подробнее</a>
+	            </div>
+	            <div class="news-item">
+	                <h3>Изменения в расписании</h3>
+	                <p>
+	                    Проверьте обновленное расписание занятий в личном кабинете.
+	                </p>
+	                <a href="#">Подробнее</a>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+
+	<section class="student-gallery" data-aos="fade-up">
+	    <div class="container">
+	        <h2>Галерея студенческой жизни</h2>
+	        <div class="gallery-grid">
+	            <img src="res/event1.jpg" alt="Event 1">
+	            <img src="res/event2.jpg" alt="Event 2">
+	            <img src="res/event3.jpg" alt="Event 3">
+	            <img src="res/event4.jpg" alt="Event 4">
+	        </div>
+	    </div>
+	</section>
+
+
+	<!-- Footer -->
+	<footer class="footer">
+    	<p>© All Rights Reserved.</p>
+    	<div>
+        	<a href="#">Сведения</a> |
+        	<a href="#">Ресурсы</a> |
+        	<a href="#">Внешние ресурсы</a> |
+        	<a href="#">Социальные сети</a> |
+        	<a href="#">Контакты</a>
+    	</div>
+	</footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script/script.js"></script>
+    <script>
+        AOS.init(); // Инициализация библиотеки AOS
+    </script>
+</body>
+</html>

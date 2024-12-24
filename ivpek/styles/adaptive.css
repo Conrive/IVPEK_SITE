@@ -1,0 +1,47 @@
+/* Адаптивность для экранов шириной меньше 924px */
+@media (max-width: 924px) {
+    /* Header: скрыть элементы, оставить логотип и кнопку меню */
+    .nav-li {
+        display: none; /* Скрыть все элементы меню */
+    }
+
+    #menu-btn {
+        display: inline-block; /* Кнопка меню остается видимой */
+    }
+
+    .header {
+        justify-content: space-between; /* Логотип и кнопка меню располагаются по краям */
+    }
+
+    .logo img {
+        height: 60px; /* Уменьшить размер логотипа */
+    }
+
+    .side-menu {
+        width: 50%;
+    }
+
+    /* Content Section: расположить элементы друг под другом */
+    .content-block {
+        flex-direction: column; /* Сменить направление элементов на вертикальное */
+        align-items: center; /* Центрировать содержимое */
+    }
+
+    .content-block p, .content-block img {
+        max-width: 100%; /* Элементы занимают всю ширину */
+        margin: 0; /* Убрать внешние отступы */
+        text-align: center; /* Центрировать текст */
+    }
+
+    .content-block img {
+        max-height: 300px; /* Уменьшить максимальную высоту изображений */
+    }
+
+    .content-section {
+        padding: 20px; /* Уменьшить отступы секции */
+    }
+
+    .content-section h2 {
+        font-size: 1.5rem; /* Уменьшить размер заголовка */
+    }
+}
